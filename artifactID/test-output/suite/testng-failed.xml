@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [suite]">
+  <test thread-count="5" name="parameterization test(failed)">
+    <parameter name="password" value="kumar123"/>
+    <parameter name="username" value="jayapavanidadi@gmail.com"/>
+    <classes>
+      <class name="grpID.artifactID.demoOnParametrization">
+        <methods>
+          <include name="parameters" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- grpID.artifactID.demoOnParametrization -->
+    </classes>
+  </test> <!-- parameterization test(failed) -->
+</suite> <!-- Failed suite [suite] -->

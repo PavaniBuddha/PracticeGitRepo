@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Sample Suit testcases">
+	<test name="smoke suite file">
+		<classes>
+			
+			<class name = "grpID.artifactID.sampleTestNG" />
+			<class name = "com.demo1.testDemo1" />
+
+		</classes>
+
+	</test>
+
+</suite>
+
+  
