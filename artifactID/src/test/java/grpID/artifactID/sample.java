@@ -25,6 +25,7 @@ public class sample {
     select.click();
     Thread.sleep(5000);
     driver.close();
+    
 	}
 
 }
