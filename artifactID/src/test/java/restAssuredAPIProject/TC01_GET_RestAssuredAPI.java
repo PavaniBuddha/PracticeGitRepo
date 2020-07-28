@@ -9,7 +9,7 @@ import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
 public class TC01_GET_RestAssuredAPI {
-
+  //API example
 	@Test
 	void getWeatherDetails()
 	{   
