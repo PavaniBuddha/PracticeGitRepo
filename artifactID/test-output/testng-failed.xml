@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="restAssuredAPIProject.TC02_POST_RestAssuredAPI">
+      <class name="com.demo2.demoOnButtons">
         <methods>
-          <include name="RegistrationSuccessful"/>
+          <include name="closeBrowser"/>
+          <include name="mouseHov"/>
+          <include name="launchBrowser"/>
         </methods>
-      </class> <!-- restAssuredAPIProject.TC02_POST_RestAssuredAPI -->
+      </class> <!-- com.demo2.demoOnButtons -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
